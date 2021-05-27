@@ -70,3 +70,23 @@ hugo
 
 ### Copy Hugo Data into AWS Cloud9 S3 Bucket
 
+1) Create Bucket
+
+![Screen Shot 2021-05-27 at 18 58 23](https://user-images.githubusercontent.com/57304126/119902392-86b68f00-bf1d-11eb-85f5-f5231532423a.png)
+
+Bucket policy: 
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::hellocloud4data1/*"
+        }
+    ]
+}
+```
