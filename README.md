@@ -98,7 +98,9 @@ Bucket policy:
 
 [Tutorial](https://github.com/noahgift/cdhugo)
 
-1) Crate CodeBuild
+1) Crate CodeBuild and grant acces to S3 for codebuild role:
+
+![Screen Shot 2021-05-27 at 19 30 47](https://user-images.githubusercontent.com/57304126/119905204-29710c80-bf22-11eb-8657-4cafdb32b5d9.png)
 
 2) vim buildspec.yml
 
@@ -130,3 +132,4 @@ phases:
       - echo Build completed on `date`
 
 ```
+3) Attach policy to c
