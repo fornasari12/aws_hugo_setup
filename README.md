@@ -54,4 +54,19 @@ draft: false
 
 ![Screen Shot 2021-05-27 at 18 38 09](https://user-images.githubusercontent.com/57304126/119900280-b3b57280-bf1a-11eb-8366-1da87af76d9d.png)
 
+8) Get ip
+
+```shell
+curl ipinfo.io
+
+hugo serve --bind=0.0.0.0 --port=8080 --baseURL=http://3.236.40.124/
+```
+
+9) Create folders and public folder where all the html will be stored.
+
+```
+hugo
+```
+
+### Copy Hugo Data into AWS Cloud9 S3 Bucket
 
