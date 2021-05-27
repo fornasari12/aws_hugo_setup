@@ -96,6 +96,8 @@ Bucket policy:
 
 ### Automatic Updating of Hugo in AWS Cloud9
 
+[Tutorial](https://github.com/noahgift/cdhugo)
+
 1) Crate CodeBuild
 
 2) vim buildspec.yml
@@ -105,7 +107,7 @@ version: 0.2
 
 environment_variables:
   plaintext:
-    HUGO_VERSION: "0.74.3"
+    HUGO_VERSION: "0.83.1"
     
 phases:
   install:
