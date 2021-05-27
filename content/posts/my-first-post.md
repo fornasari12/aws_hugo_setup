@@ -1,5 +1,5 @@
 ---
-title: "Leandrito sos un cagoaso"
+title: "Leandrito sos un cagonaso"
 date: 2021-05-27T21:33:38Z
 draft: false
 ---
