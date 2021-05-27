@@ -1,3 +1,4 @@
+![Uploading Screen Shot 2021-05-27 at 19.02.03.png…]()
 # aws_hugo_setup
 Initial Setup of AWS Cloud9 and GitHub for Hugo
 
@@ -71,6 +72,8 @@ hugo
 ### Copy Hugo Data into AWS Cloud9 S3 Bucket
 
 1) Create Bucket
+2) 
+![Screen Shot 2021-05-27 at 19 02 22](https://user-images.githubusercontent.com/57304126/119902770-13f9e380-bf1e-11eb-80e7-2937c10b5c59.png)
 
 ![Screen Shot 2021-05-27 at 18 58 23](https://user-images.githubusercontent.com/57304126/119902392-86b68f00-bf1d-11eb-85f5-f5231532423a.png)
 
@@ -90,3 +93,9 @@ Bucket policy:
     ]
 }
 ```
+
+### Automatic Updating of Hugo in AWS Cloud9
+
+1) Crate CodeBuild
+
+
