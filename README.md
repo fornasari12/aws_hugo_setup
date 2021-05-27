@@ -1,4 +1,3 @@
-![Uploading Screen Shot 2021-05-27 at 19.02.03.png…]()
 # aws_hugo_setup
 Initial Setup of AWS Cloud9 and GitHub for Hugo
 
