@@ -35,4 +35,23 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
 echo 'theme = "ananke"'>>config.toml
 ```
 
+5) add .gitignore with "public" folder.
+
+6) Create first post and change values
+
+```shell
+hugo new posts/my-first-post.md
+```
+```
+---
+title: "Dale Putito daleeee"
+date: 2021-05-27T21:33:38Z
+draft: false
+---
+```
+
+7) Open por for EC2 instance from aws console, add rule to port 8080 to preview Hugo
+
+![Screen Shot 2021-05-27 at 18 38 09](https://user-images.githubusercontent.com/57304126/119900280-b3b57280-bf1a-11eb-8366-1da87af76d9d.png)
+
 
