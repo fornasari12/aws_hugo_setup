@@ -34,3 +34,5 @@ mv quickstart/* $HOME/environment/aws_hugo_setup
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 echo 'theme = "ananke"'>>config.toml
 ```
+
+
